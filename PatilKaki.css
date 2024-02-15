@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    margin: auto;
+    background-color:antiquewhite;
+    margin: auto;
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    margin-top: 10px;
+}
+
+/* ..........Hero section ............................ */
+.hero_section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 100px;
+   
+}
+
+/* .................left hero section............ */
+.left_hero_section h1{
+    color: green;
+    font-size: 100px;
+    font-style:inherit;
+    transition: all ease 0.2s;
+}
+.left_hero_section p{
+    color: rgb(20, 114, 154);
+    text-align: justify;
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: 500;
+}
+.hover_style:hover{
+    text-shadow: 0 0 5px #03e9f4,0 0 15px #03e9f4,0 0 25px #03e9f4,0 0 100px #03e9f4;
+}
+
+/* .................Right hero section............ */
+.Right_hero_section{
+object-fit: contain;
+margin-left: 40px;
+}
+
+/* ..................details about author .................. */
+.About_details{
+    text-align: center;
+    margin-top: 30px ;
+    margin-bottom: 5px;
+    color: green;
+    font-size: 50px;
+}
+hr {
+    border: 1px solid black; 
+    margin: 10px 0; 
+}
+
+.details{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+.details img{
+  
+    margin-left: 100px;
+}
+.details p{
+    color: rgb(20, 114, 154);
+    text-align: justify;
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: 500;
+    margin-left:20px;
+    margin-right: 100px;
+  }
+
+
+/* ..................question for user............. */
+h2{
+    text-align: center;
+    margin-top: 60px ;
+    font-size: 50px;
+    color: gray;
+}
+
+
+    /* .....achieemnt cards............ */
+    .achievment{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+     }
+     .achievementCard{
+        background-color:rgb(241, 211, 156);
+         width: 200px;
+         height: 200px;
+         border-radius: 10px;
+         border: 1px solid red;
+         box-shadow: 0 0 40px black;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+     }
+     .achievementCard h2 {
+         margin-top: 20px;
+         font-size: 25px;
+         font-weight: 700;
+         color: #20BC7E;
+       }
+       
+       .achievementCard p {
+         padding:5px;
+         text-align: center;
+         color: black;
+         text-align: center;
+       }
+
+       /* ............................footer countdown............... */
+       .countdown{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position:fixed;
+        background-color:gray;
+        height:50px;
+        width: 100%;
+        bottom: 0%; 
+        gap: 20px; 
+       }
+        h3{
+        color: yellow;
+        text-align: center;
+        font-weight: normal;
+
+       }
+
+       .Time{
+        color: yellow;
+        display: flex;
+        align-items: center;
+       }
+        
+       
+       /* ....form.......... */
+       .hidden{
+        display: none;
+       }
+
+       form{
+        background-color: yellow;
+        border: 3px solid red;
+        border-radius: 15px;
+        height:300px;
+        width: 300px;
+       }
+
+       .form_heading{
+        text-align: center;
+        color: #03e9f4;
+        font-size: 15px;
+
+       }
+       .userdata{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         color: #20BC7E;
+         gap:auto;
+       }
+       button{
+        background-color: green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-left: 120px;
+        color: yellow;
+        border-radius: 10px;
+        padding: 5px 10px;
+    }
